@@ -1,0 +1,47 @@
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.14em 2.1em;
+
+    background: $secondary;
+    border: none;
+    cursor: pointer;
+    border-radius: 3em;
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    color: $white;
+    text-decoration: none;
+
+    transition: background-color .2s linear;
+}
+
+.btn--red {
+    background-color: #CD251A;
+}
+.btn--red:hover {
+    background-color: darken($red, 15%);
+    text-decoration: none;
+}
+.btn--red:focus {
+    background-color: darken($red, 15%);
+    text-decoration: none;
+}
+
+.btn--blue {
+    background-color: #2A5FE7;
+}
+.btn--blue:hover {
+     background-color: darken($blue, 15%);
+}
+.btn--blue:focus {
+     background-color: darken($blue, 15%);
+}
+.btn--rounded {
+    border-radius: 0.41em;
+}
+.btn--sm {
+    padding: 0.7em 1.25em;
+}
